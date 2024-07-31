@@ -8,7 +8,7 @@
 
 - name: Copy Node.js application
   template:
-    src: index.js
+    src: app.js
     dest: /var/www/html/app.js
 
 - name: Install Node.js dependencies
