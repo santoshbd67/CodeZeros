@@ -4,3 +4,9 @@
     terraform plan
     terraform apply --auto-approve
 ```
+## Build and run the docker image using following commonds
+
+```
+docker build -t santoshbd67/nodejs:latest .
+docker run -d -p 3000:3000 santoshbd67/nodejs:latest
+```
