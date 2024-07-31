@@ -1,0 +1,22 @@
+- name: Install Node.js and npm
+  apt:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - nodejs
+    - npm
+
+- name: Copy Node.js application
+  template:
+    src: index.js
+    dest: /var/www/html/app.js
+
+- name: Install Node.js dependencies
+  command: npm install
+  args:
+    chdir: /var/www/html
+
+- name: Start Node.js application
+  command: npm start
+  args:
+    chdir: /var/www/html
