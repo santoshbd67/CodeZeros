@@ -1,5 +1,5 @@
 [defaults]
 inventory = inventory
 remote_user = ubuntu
-private_key_file = C:/Users/HP/Downloads/task-2.pem
+private_key_file = C:/Users/HP/Downloads/task-1.pem
 host_key_checking = False
