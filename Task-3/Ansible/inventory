@@ -1,2 +1,2 @@
 [web]
-<instance_public_ip> # Replace with the IP address output by Terraform
+3.82.14.60 # Replace with the IP address output by Terraform
