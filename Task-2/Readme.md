@@ -8,3 +8,9 @@ kubectl create ns nginx-deployment
 ```
 kubectl apply -f Nginx-deployment.yaml
 ```
+
+## Expose the application using NodePort
+
+```
+kubectl apply -f service.yaml
+```
