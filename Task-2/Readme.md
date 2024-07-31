@@ -3,3 +3,8 @@
 ```
 kubectl create ns nginx-deployment
 ```
+## Deploy the nginx pod using following command
+
+```
+kubectl apply -f Nginx-deployment.yaml
+```
